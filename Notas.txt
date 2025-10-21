@@ -1,0 +1,40 @@
+Pasos para activar/jugar con Django
+
+1.- Vamos al directorio
+cd "C:\Users\miguel.castañares\OneDrive - GPEX\Documentos\Formación\FEMXA\Python y Django\django"
+
+2.- Crear un entorno virtual. Solo la primera vez
+python -m venv myvenv
+
+3.- Activar el entorno virtual.
+myvenv\Scripts\actívate
+
+4.- Crear un projecto.
+django-admin.exe startproject mysite .
+
+5.- Arrancar el servidor.
+python manage.py runserver
+
+6.- URL acceso.
+http://127.0.0.1:8000/
+
+7.- Crear superusuario administrador de django
+python manage.py createsuperuser
+usuario: miguel.castanares
+contraseña: administrador
+
+8. Creación repositorio GIT
+$ git init
+Initialized empty Git repository in ~/djangogirls/.git/
+$ git config --global user.name "Tu nombre"
+$ git config --global user.email tu@ejemplo.com
+
+9.- Crear el arcivho .gitignore
+*.pyc
+*~
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store
+
