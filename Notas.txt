@@ -7,7 +7,7 @@ cd "C:\Users\miguel.castañares\OneDrive - GPEX\Documentos\Formación\FEMXA\Pyth
 python -m venv myvenv
 
 3.- Activar el entorno virtual.
-myvenv\Scripts\actívate
+myvenv\Scripts\activate
 
 4.- Crear un projecto.
 django-admin.exe startproject mysite .
@@ -19,6 +19,7 @@ python manage.py runserver
 http://127.0.0.1:8000/
 
 7.- Crear superusuario administrador de django
+
 python manage.py createsuperuser
 usuario: miguel.castanares
 contraseña: administrador
@@ -37,4 +38,13 @@ myvenv
 db.sqlite3
 /static
 .DS_Store
+
+10.- Actualizar y guardar cambios en git
+git status
+git add --all .
+
+11.- Pythonanywhere token: 6e28f8c1dacf6614bc7a1eb3fd98c5dc05fde873
+
+pa_autoconfigure_django.py --python=3.6 https://github.com/miguelacptrbj/my-first-blog.git
+
 
