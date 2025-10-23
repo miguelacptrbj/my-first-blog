@@ -8,6 +8,9 @@ python -m venv myvenv
 
 3.- Activar el entorno virtual.
 myvenv\Scripts\activate
+o si es powershell
+myvenv\Scripts\Activate.ps
+
 
 4.- Crear un projecto.
 django-admin.exe startproject mysite .
